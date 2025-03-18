@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+/* title */
+.title {
+    margin-bottom: 30px;
+    color: #44463B;
+}
+
+/* insert btn */
+.btn-insert {
+    margin: 0 20px 20px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-insert button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 25px;
+    background-color: #E3E9C7;
+    color: #44463B;
+}
+
+/* content */
+.content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+}
+
+/* card */
+.card {
+    border: 1px solid #44463B;
+    padding: 10px;
+}
+
+.card-content {
+    /* width: 95%; */
+    margin: 0 auto;
+}
+
+.card img {
+    max-width: 100%;
+    margin: 0 auto;
+}

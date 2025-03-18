@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* footer 전체 박스 */
+.footer {
+    background-color: #0E0E0E;
+    color: #A9A9A9;
+    padding: 50px 100px;
+}
+/* footer title */
+.footer > p {
+    font-size: 22px;
+    font-weight: 600;
+}
+hr {
+    margin: 30px 0;
+}
+/* footer menu */
+.footer-flex {
+    display: flex;
+}
+.footer-left {
+    width: 60%;
+}
+.footer-right {
+    display: flex;
+    width: 40%;
+}
+.go-class{
+    width: 50%;
+}
+
+/* footer 메뉴 공통 */
+.footer-menu :first-child  {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.footer-menu :not(:first-child) {
+    margin-top: 10px;
+}
