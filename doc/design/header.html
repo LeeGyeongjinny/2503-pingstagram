@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/header.css">
+    <script src="./js/header.js" defer></script>
     <title>Header</title>
 </head>
 <body>
@@ -11,7 +13,7 @@
         <div class="header-menu">
             <!-- 로그인 했을 경우에만 보이게 if문 넣기 -->
             <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn">게시판</button>
+                <button class="dropbtn">게시판</button>
                 <div id="myDropdown" class="dropdown-content">
                     <a href="#home">자유게시판</a>
                     <a href="#contact">문의게시판</a>
@@ -30,7 +32,7 @@
         </div>
     </header>
 
-    <script>
+    <!-- <script>
         function myFunction() {
             document.getElementById("myDropdown").classList.toggle("show");
         }
@@ -47,6 +49,6 @@
                 }
             }
         }
-    </script>
+    </script> -->
 </body>
 </html>
