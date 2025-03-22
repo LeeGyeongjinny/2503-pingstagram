@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'GongGothicMedium';
+}
+
+/* @font-face {
+    font-family: 'Paperlogy-8ExtraBold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
+    font-style: normal;
+} */
+@font-face {
+    font-family: 'GongGothicMedium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #44463B;
+}
+
+a:visited {
+    color: #44463B;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+input {
+    border: none;
+    padding: 0 10px;
+    font-size: 15px;
+}
+
+input:focus {
+    /* outline: 1px solid #969A87; */
+    outline: none;
+    box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.2);
+}
+
+textarea {
+    resize: none;
+    background-color: #E3E9C7;
+    border-radius: 25px;
+    border: none;
+    padding: 10px 20px;
+}
+
+textarea:focus {
+    box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.2);
+    outline: none;
+}
+
+/* content */
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+/* color */
+
+/* color: #44463B; // 진한 글자 */
+/* color: #D9D9D9; // 연한 회색글자 */
+/* background-color: #E3E9C7; // 연두색 bg */
+/* background-color: #969A87; // 카키색 */
+/* box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.2); // focus shadow */
+/* button:hover {
+    box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.2);
+    transform: translateY(-1px);
+} */

@@ -1,0 +1,11 @@
+footer {
+    background-color: #E3E9C7;
+    height: 50px;
+    line-height: 45px;
+}
+
+footer p {
+    color: #44463B;
+    margin: 0 auto;
+    width: 17%;
+}
